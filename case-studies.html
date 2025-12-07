@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies | Strategic Energy Modelling Associates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="logo-horizontal.svg" alt="SEMA - Strategic Energy Modelling Associates" class="logo-nav">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="capabilities.html">Capabilities</a></li>
+                <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="approach.html">Approach</a></li>
+                <li><a href="clients.html">Who I Work With</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Case Studies</h1>
+                <p class="subtitle">Selected projects demonstrating optimisation-based analysis</p>
+            </div>
+        </section>
+
+        <section class="case-studies-content">
+            <div class="container">
+                <div class="case-study">
+                    <h2>1. Green Hydrogen Adoption in Pakistan's Heavy-Duty Freight Sector</h2>
+                    <div class="case-meta">
+                        <span class="meta-item"><strong>Method:</strong> Agent-based model</span>
+                        <span class="meta-item"><strong>Data:</strong> NTRC freight transport data</span>
+                        <span class="meta-item"><strong>Client:</strong> Research collaboration</span>
+                    </div>
+                    
+                    <h3>Problem</h3>
+                    <p>
+                        Assess the feasibility and optimal pathway for transitioning Pakistan's heavy-duty 
+                        freight vehicle fleet to green hydrogen fuel cell vehicles, considering infrastructure 
+                        requirements, cost competitiveness, and adoption dynamics.
+                    </p>
+
+                    <h3>Approach</h3>
+                    <p>
+                        Developed an agent-based model with heterogeneous fleet operators making adoption 
+                        decisions based on total cost of ownership, infrastructure availability, and peer effects. 
+                        Calibrated against historical vehicle registration data from NTRC. Integrated hourly 
+                        electrolyser dispatch optimisation to determine hydrogen production costs.
+                    </p>
+
+                    <h3>Key Results</h3>
+                    <ul>
+                        <li>Optimal electrolyser capacity and technology mix for freight corridor coverage</li>
+                        <li>Adoption timeline under different policy scenarios (subsidies, carbon pricing)</li>
+                        <li>Levelised cost of hydrogen competitive with diesel at specific electricity price thresholds</li>
+                        <li>Infrastructure roll-out sequence prioritising high-traffic corridors</li>
+                    </ul>
+
+                    <h3>Limitations and Caveats</h3>
+                    <ul>
+                        <li>Model assumes rational cost-minimising agents; behavioural factors not fully captured</li>
+                        <li>Infrastructure cost estimates based on international benchmarks; local conditions may differ</li>
+                        <li>Electricity price projections subject to policy uncertainty</li>
+                        <li>Water availability constraints for electrolysis not explicitly modelled in all scenarios</li>
+                    </ul>
+                </div>
+
+                <div class="case-study">
+                    <h2>2. GCC Hydrogen Export Corridor Optimisation</h2>
+                    <div class="case-meta">
+                        <span class="meta-item"><strong>Method:</strong> Multi-objective MILP</span>
+                        <span class="meta-item"><strong>Focus:</strong> Qatar as supplier</span>
+                        <span class="meta-item"><strong>Client:</strong> Research collaboration</span>
+                    </div>
+                    
+                    <h3>Problem</h3>
+                    <p>
+                        Design optimal hydrogen export infrastructure from Qatar to European markets, 
+                        balancing cost minimisation, emissions reduction, and water use constraints.
+                    </p>
+
+                    <h3>Approach</h3>
+                    <p>
+                        Multi-objective mixed-integer linear programming model optimising production capacity, 
+                        storage, and transport mode selection (pipeline vs. shipping). Incorporated hourly 
+                        solar resource variability from ERA5 data and demand uncertainty through stochastic scenarios.
+                    </p>
+
+                    <h3>Key Results</h3>
+                    <ul>
+                        <li>Optimal production capacity and technology mix (alkaline vs. PEM electrolysers)</li>
+                        <li>Trade-offs between cost, emissions, and water consumption</li>
+                        <li>Transport mode selection sensitive to distance and volume</li>
+                        <li>Storage requirements to manage renewable variability</li>
+                    </ul>
+
+                    <h3>Limitations and Caveats</h3>
+                    <ul>
+                        <li>Export demand scenarios based on European policy targets; actual demand may differ</li>
+                        <li>Pipeline cost estimates for long-distance hydrogen transport subject to technical uncertainty</li>
+                        <li>Water desalination costs and energy requirements simplified</li>
+                        <li>Geopolitical and regulatory risks not quantified</li>
+                    </ul>
+                </div>
+
+                <div class="case-study">
+                    <h2>3. UK Hydrogen Infrastructure Under Demand Uncertainty</h2>
+                    <div class="case-meta">
+                        <span class="meta-item"><strong>Method:</strong> Two-stage stochastic programming (UKH2-Stoch)</span>
+                        <span class="meta-item"><strong>Risk Measure:</strong> CVaR</span>
+                        <span class="meta-item"><strong>Client:</strong> Research collaboration</span>
+                    </div>
+                    
+                    <h3>Problem</h3>
+                    <p>
+                        Determine optimal hydrogen production and storage infrastructure for the UK under 
+                        uncertain future demand from industry, transport, and power sectors.
+                    </p>
+
+                    <h3>Approach</h3>
+                    <p>
+                        Two-stage stochastic MILP with CVaR risk measures. First stage: infrastructure 
+                        investment decisions. Second stage: operational dispatch under demand scenarios. 
+                        Generated scenarios from UK government projections and sensitivity analysis.
+                    </p>
+
+                    <h3>Key Results</h3>
+                    <ul>
+                        <li>Risk-averse infrastructure investment recommendations</li>
+                        <li>Value of stochastic solution indicating significant benefit over deterministic planning</li>
+                        <li>Optimal storage capacity to manage demand uncertainty</li>
+                        <li>Sensitivity analysis on risk aversion parameters</li>
+                    </ul>
+
+                    <h3>Limitations and Caveats</h3>
+                    <ul>
+                        <li>Demand scenarios based on policy projections; actual sectoral demand may evolve differently</li>
+                        <li>Model assumes perfect foresight in second stage; operational flexibility may be constrained</li>
+                        <li>Grid integration constraints simplified</li>
+                        <li>Technology cost learning not endogenously modelled</li>
+                    </ul>
+                </div>
+
+                <div class="case-study">
+                    <h2>4. Climate-Constrained Power System Planning</h2>
+                    <div class="case-meta">
+                        <span class="meta-item"><strong>Method:</strong> TIMES with climate-adjusted resources</span>
+                        <span class="meta-item"><strong>Focus:</strong> Water-energy interactions</span>
+                        <span class="meta-item"><strong>Client:</strong> Research collaboration</span>
+                    </div>
+                    
+                    <h3>Problem</h3>
+                    <p>
+                        Long-term power system capacity expansion planning under carbon constraints, 
+                        incorporating climate-adjusted renewable resource availability and water use constraints.
+                    </p>
+
+                    <h3>Approach</h3>
+                    <p>
+                        TIMES model with climate-adjusted solar and wind profiles from ERA5 and NASA POWER. 
+                        Integrated water-energy nexus constraints for thermal power plants and renewable 
+                        resource variability under climate change scenarios.
+                    </p>
+
+                    <h3>Key Results</h3>
+                    <ul>
+                        <li>Technology mix and capacity expansion schedule to 2050</li>
+                        <li>Impact of climate-adjusted renewable resources on optimal capacity</li>
+                        <li>Water use trade-offs between thermal and renewable technologies</li>
+                        <li>Cost and emissions trajectories under different carbon budgets</li>
+                    </ul>
+
+                    <h3>Limitations and Caveats</h3>
+                    <ul>
+                        <li>Climate projections based on RCP scenarios; actual climate outcomes may differ</li>
+                        <li>Water availability constraints simplified; detailed hydrological modelling not included</li>
+                        <li>Transmission constraints and grid stability not explicitly modelled</li>
+                        <li>Technology cost projections subject to uncertainty</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Discuss Your Project</h2>
+                <p>All case studies include full documentation with assumption registers and validation checks.</p>
+                <a href="contact.html" class="btn-primary">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Strategic Energy Modelling Associates (SEMA). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

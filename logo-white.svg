@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- SEMA Acronym - White/Light -->
+  <text x="200" y="50" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.1em">SEMA</text>
+  
+  <!-- Full Name - Light Grey -->
+  <text x="200" y="85" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.9)" text-anchor="middle" letter-spacing="0.02em">Strategic Energy Modelling Associates</text>
+</svg>
+

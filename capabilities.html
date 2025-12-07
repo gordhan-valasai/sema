@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelling Capabilities | Strategic Energy Modelling Associates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="logo-horizontal.svg" alt="SEMA - Strategic Energy Modelling Associates" class="logo-nav">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="capabilities.html" class="active">Capabilities</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="approach.html">Approach</a></li>
+                <li><a href="clients.html">Who I Work With</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Modelling Capabilities</h1>
+                <p class="subtitle">Methods organised by problem type, not technical capability</p>
+            </div>
+        </section>
+
+        <section class="capabilities-content">
+            <div class="container">
+                <div class="capability-category">
+                    <h2>Long-Term Capacity Planning</h2>
+                    <p>
+                        For multi-decade capacity expansion decisions under carbon constraints and 
+                        technology cost uncertainty.
+                    </p>
+                    <div class="method-details">
+                        <h3>Methods</h3>
+                        <ul>
+                            <li>Linear and mixed-integer optimisation using TIMES, OSeMOSYS, or custom Pyomo/JuMP formulations</li>
+                            <li>Multi-objective optimisation (cost, emissions, water use)</li>
+                            <li>Technology learning curves and cost projections</li>
+                        </ul>
+                        <h3>Typical Applications</h3>
+                        <ul>
+                            <li>National energy system planning to 2050</li>
+                            <li>Regional power sector expansion</li>
+                            <li>Multi-sector integration (power, transport, industry)</li>
+                        </ul>
+                        <h3>Data Requirements</h3>
+                        <ul>
+                            <li>Historical energy demand and supply data (IEA, national statistics)</li>
+                            <li>Technology cost and performance parameters</li>
+                            <li>Carbon budgets and policy constraints</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="capability-category">
+                    <h2>Hydrogen Infrastructure Under Uncertainty</h2>
+                    <p>
+                        For hydrogen production, storage, and transport infrastructure decisions 
+                        when demand, prices, and renewable resource availability are uncertain.
+                    </p>
+                    <div class="method-details">
+                        <h3>Methods</h3>
+                        <ul>
+                            <li>Two-stage stochastic programming with CVaR risk measures</li>
+                            <li>Scenario generation from historical data and projections</li>
+                            <li>Robust optimisation for worst-case analysis</li>
+                        </ul>
+                        <h3>Typical Applications</h3>
+                        <ul>
+                            <li>Electrolyser sizing and technology selection</li>
+                            <li>Pipeline and storage infrastructure planning</li>
+                            <li>Export corridor optimisation (e.g., GCC to Europe)</li>
+                        </ul>
+                        <h3>Data Requirements</h3>
+                        <ul>
+                            <li>Hourly renewable energy profiles (solar, wind)</li>
+                            <li>Electricity price time series</li>
+                            <li>Demand scenarios and probability distributions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="capability-category">
+                    <h2>Technology Adoption and Market Dynamics</h2>
+                    <p>
+                        For understanding how technologies diffuse through markets and how policy 
+                        interventions affect adoption rates.
+                    </p>
+                    <div class="method-details">
+                        <h3>Methods</h3>
+                        <ul>
+                            <li>Agent-based modelling calibrated against observed diffusion patterns</li>
+                            <li>Bass diffusion models with heterogeneous agents</li>
+                            <li>Network effects and spatial diffusion</li>
+                        </ul>
+                        <h3>Typical Applications</h3>
+                        <ul>
+                            <li>Heavy-duty vehicle fleet transitions</li>
+                            <li>Residential solar PV adoption</li>
+                            <li>Electric vehicle charging infrastructure roll-out</li>
+                        </ul>
+                        <h3>Data Requirements</h3>
+                        <ul>
+                            <li>Historical adoption data (NTRC, national vehicle registrations)</li>
+                            <li>Agent characteristics and decision rules</li>
+                            <li>Policy intervention timelines</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="capability-category">
+                    <h2>Forecasting and Scenario Generation</h2>
+                    <p>
+                        For generating plausible future scenarios and integrating machine learning 
+                        methods with optimisation frameworks.
+                    </p>
+                    <div class="method-details">
+                        <h3>Methods</h3>
+                        <ul>
+                            <li>Machine learning methods integrated with optimisation frameworks</li>
+                            <li>Time series forecasting (ARIMA, LSTM) for demand and prices</li>
+                            <li>Climate-adjusted renewable resource assessment using ERA5, NASA POWER</li>
+                        </ul>
+                        <h3>Typical Applications</h3>
+                        <ul>
+                            <li>Long-term demand forecasting</li>
+                            <li>Climate-adjusted solar and wind resource assessment</li>
+                            <li>Price scenario generation for stochastic models</li>
+                        </ul>
+                        <h3>Data Requirements</h3>
+                        <ul>
+                            <li>Historical time series (demand, prices, weather)</li>
+                            <li>Climate reanalysis data (ERA5)</li>
+                            <li>Satellite-derived solar irradiance (NASA POWER)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technical-stack">
+            <div class="container">
+                <h2>Technical Stack</h2>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <h3>Optimisation Frameworks</h3>
+                        <p>Pyomo (Python), JuMP (Julia), TIMES, OSeMOSYS, LEAP</p>
+                    </div>
+                    <div class="stack-item">
+                        <h3>Solvers</h3>
+                        <p>Gurobi, CPLEX, HiGHS, GLPK</p>
+                    </div>
+                    <div class="stack-item">
+                        <h3>Data Processing</h3>
+                        <p>Pandas, NumPy, CSV/Excel processing</p>
+                    </div>
+                    <div class="stack-item">
+                        <h3>Visualisation</h3>
+                        <p>Matplotlib, Plotly, Seaborn</p>
+                    </div>
+                    <div class="stack-item">
+                        <h3>Data Sources</h3>
+                        <p>ERA5, NASA POWER, IEA, IRENA, NEPRA, NTDC</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Strategic Energy Modelling Associates (SEMA). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

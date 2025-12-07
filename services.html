@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Strategic Energy Modelling Associates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="logo-horizontal.svg" alt="SEMA - Strategic Energy Modelling Associates" class="logo-nav">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="capabilities.html">Capabilities</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="approach.html">Approach</a></li>
+                <li><a href="clients.html">Who I Work With</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Services</h1>
+                <p class="subtitle">Optimisation-based analysis for energy system planning and investment decisions</p>
+            </div>
+        </section>
+
+        <section class="services-content">
+            <div class="container">
+                <div class="service-item" id="hydrogen">
+                    <h2>1. Green Hydrogen Systems Analysis</h2>
+                    <h3>Scope</h3>
+                    <p>
+                        Electrolyser sizing and dispatch optimisation, levelised cost of hydrogen (LCOH) calculations, 
+                        storage and transport infrastructure planning. Focus areas include Pakistan freight transport 
+                        applications and GCC export corridor analysis.
+                    </p>
+                    <h3>Deliverables</h3>
+                    <ul>
+                        <li>Optimal electrolyser capacity and technology selection</li>
+                        <li>LCOH estimates under varying renewable energy and electricity price scenarios</li>
+                        <li>Storage and pipeline infrastructure sizing recommendations</li>
+                        <li>Comparison of business-as-usual and net-zero pathways with cost and emissions trajectories</li>
+                        <li>Multi-objective trade-offs (cost, emissions, water use)</li>
+                    </ul>
+                    <h3>Methods</h3>
+                    <p>
+                        Mixed-integer linear programming for capacity expansion, hourly dispatch optimisation, 
+                        two-stage stochastic programming for demand and price uncertainty.
+                    </p>
+                </div>
+
+                <div class="service-item" id="transport">
+                    <h2>2. Transport Sector Decarbonisation</h2>
+                    <h3>Scope</h3>
+                    <p>
+                        Heavy-duty vehicle fleet transition modelling, charging infrastructure planning, 
+                        total cost of ownership analysis for alternative fuel vehicles.
+                    </p>
+                    <h3>Deliverables</h3>
+                    <ul>
+                        <li>Optimal fleet transition pathways with timing and technology mix</li>
+                        <li>Charging infrastructure location and capacity requirements</li>
+                        <li>Total cost of ownership comparisons (diesel, electric, hydrogen fuel cell)</li>
+                        <li>Agent-based diffusion models calibrated to observed adoption patterns</li>
+                        <li>Policy intervention impact assessment</li>
+                    </ul>
+                    <h3>Methods</h3>
+                    <p>
+                        Agent-based modelling for technology adoption, MILP for infrastructure planning, 
+                        scenario analysis for policy sensitivity.
+                    </p>
+                </div>
+
+                <div class="service-item" id="pathways">
+                    <h2>3. Net-Zero Pathway Analysis</h2>
+                    <h3>Scope</h3>
+                    <p>
+                        Long-term capacity expansion planning under carbon constraints, multi-sector integration 
+                        (power, transport, industry), climate-adjusted renewable energy resource assessment.
+                    </p>
+                    <h3>Deliverables</h3>
+                    <ul>
+                        <li>Technology mix and capacity expansion schedules to 2050</li>
+                        <li>Annual cost and emissions trajectories</li>
+                        <li>Sensitivity analysis on carbon budgets and technology costs</li>
+                        <li>Climate-adjusted solar and wind resource assessments</li>
+                        <li>Water-energy nexus analysis where relevant</li>
+                    </ul>
+                    <h3>Methods</h3>
+                    <p>
+                        TIMES, OSeMOSYS, or custom Pyomo/JuMP formulations for long-term planning, 
+                        ERA5 and NASA POWER data processing for climate-adjusted resources.
+                    </p>
+                </div>
+
+                <div class="service-item" id="risk">
+                    <h2>4. Risk and Uncertainty Analysis</h2>
+                    <h3>Scope</h3>
+                    <p>
+                        Stochastic optimisation under demand, price, and resource uncertainty. 
+                        Conditional Value-at-Risk (CVaR) formulations for risk-averse decision-making.
+                    </p>
+                    <h3>Deliverables</h3>
+                    <ul>
+                        <li>Two-stage stochastic programming models with scenario generation</li>
+                        <li>Risk-averse solutions using CVaR measures</li>
+                        <li>Value of stochastic solution (VSS) and expected value of perfect information (EVPI)</li>
+                        <li>Sensitivity analysis on risk parameters</li>
+                        <li>Robustness testing across scenario sets</li>
+                    </ul>
+                    <h3>Methods</h3>
+                    <p>
+                        Two-stage stochastic MILP, scenario reduction techniques, Monte Carlo simulation 
+                        for uncertainty propagation.
+                    </p>
+                </div>
+
+                <div class="service-item" id="custom">
+                    <h2>5. Custom Optimisation Models</h2>
+                    <h3>Scope</h3>
+                    <p>
+                        Development of custom optimisation models for specific decision problems not 
+                        covered by standard frameworks.
+                    </p>
+                    <h3>Deliverables</h3>
+                    <ul>
+                        <li>Mathematical formulation in LaTeX notation</li>
+                        <li>Pyomo or JuMP implementation with solver integration</li>
+                        <li>Model documentation with assumption registers</li>
+                        <li>Validation and sensitivity analysis results</li>
+                        <li>Reproducible code repository</li>
+                    </ul>
+                    <h3>Methods</h3>
+                    <p>
+                        Problem-specific mathematical programming formulations, solver selection 
+                        (Gurobi, CPLEX, HiGHS) based on problem structure and scale.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Discuss Your Requirements</h2>
+                <p>All models are documented with assumption registers, validation checks, and sensitivity analyses to support independent review.</p>
+                <a href="contact.html" class="btn-primary">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Strategic Energy Modelling Associates (SEMA). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
